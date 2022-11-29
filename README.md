@@ -23,6 +23,10 @@ def fee():
 @export
 def moo():
     return 'moow'
+
+@export
+class C(object):
+    pass
 ```
 ```python
 > from mypack import *
@@ -30,9 +34,12 @@ def moo():
 NameError: name 'fee' is not defined
 > print(moo())
 moow
+> print(C())
+<mypack.C object at 0x00********>
 ```
----
+
 ![Lines of code](https://img.shields.io/tokei/lines/github/ablaternae/py-export)
 ![Downloads](https://img.shields.io/pypi/dm/import-export)
 [![Statistic](https://pepy.tech/badge/import-export/week)](https://pepy.tech/project/import-export)
 ![GitHub](https://img.shields.io/github/license/ablaternae/py-export)
+[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fablaternae%2Fpy-export&countColor=%2337d67a&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fablaternae%2Fpy-export)

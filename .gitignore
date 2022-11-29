@@ -1,7 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,windows,macos,pycharm+all,pydev,eclipse,netbeans,visualstudiocode,sublimetext,textmate,python,pythonvanilla,flask,django,dotenv,git,backup
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,macos,pycharm+all,pydev,eclipse,netbeans,visualstudiocode,sublimetext,textmate,python,pythonvanilla,flask,django,dotenv,git,backup
 
-### Backup ###
+# Git
+*.orig
+*.github_token
+*.github_secrets
+
+# Backup
 *.bak
 *.gho
 *.ori

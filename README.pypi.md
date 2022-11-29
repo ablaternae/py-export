@@ -36,7 +36,7 @@ NameError: name 'fee' is not defined
 > print(moo())
 moow
 > print(C())
-<mypack.C object at 0x01AFDD877D60>
+<mypack.C object at 0x00********>
 ```
 **NB:**
 ```python
